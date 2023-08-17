@@ -82,7 +82,7 @@ WSGI_APPLICATION = 'djmessageapp.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-     'default': { 'ENGINE': 'django.db.backends.mysql', 'NAME': 'automessage', 'USER': 'root', 'PASSWORD': '2022', 'HOST': '127.0.0.1', 'PORT': '3306', } }
+     'default': { 'ENGINE': 'django.db.backends.mysql', 'NAME': 'tablename', 'USER': 'root', 'PASSWORD': 'your password', 'HOST': '127.0.0.1', 'PORT': '3306', } }
 
 
 
